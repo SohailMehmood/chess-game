@@ -83,12 +83,10 @@ h1 {
 
 .all-img {
     width: 40px;
-    position: relative;
     object-fit: cover;
     border-radius: 5px;
-    bottom: 5px;
 }
 
-.all-pawn {
-    transform: scale(0.7);
-}
+/* .all-pawn {
+    transform: scale(0.9);
+} */
