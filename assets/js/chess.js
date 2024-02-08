@@ -1,3 +1,4 @@
+/* jshint esversion: 11, jquery: true */
 // Inserting images
 function insertImages() {
     document.querySelectorAll('.square').forEach(image => {
