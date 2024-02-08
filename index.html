@@ -13,9 +13,12 @@
 
 <body>
     <div class="container">
-        <h1>Chess Game</h1>
-        <ul>
-            <div class="row" id="row1">
+        <header>
+            <h1>Chess Game</h1>
+        </header>
+
+        <main>
+            <ul class="row" id="row1">
                 <li class="square" id="s101">b-rook</li>
                 <li class="square" id="s102">b-knight</li>
                 <li class="square" id="s103">b-bishop</li>
@@ -24,9 +27,9 @@
                 <li class="square" id="s106">b-bishop</li>
                 <li class="square" id="s107">b-knight</li>
                 <li class="square" id="s108">b-rook</li>
-            </div>
+            </ul>
 
-            <div class="row" id="row2">
+            <ul class="row" id="row2">
                 <li class="square" id="s201">b-pawn</li>
                 <li class="square" id="s202">b-pawn</li>
                 <li class="square" id="s203">b-pawn</li>
@@ -35,9 +38,9 @@
                 <li class="square" id="s206">b-pawn</li>
                 <li class="square" id="s207">b-pawn</li>
                 <li class="square" id="s208">b-pawn</li>
-            </div>
+            </ul>
 
-            <div class="row" id="row3">
+            <ul class="row" id="row3">
                 <li class="square" id="s301"></li>
                 <li class="square" id="s302"></li>
                 <li class="square" id="s303"></li>
@@ -46,9 +49,9 @@
                 <li class="square" id="s306"></li>
                 <li class="square" id="s307"></li>
                 <li class="square" id="s308"></li>
-            </div>
+            </ul>
 
-            <div class="row" id="row4">
+            <ul class="row" id="row4">
                 <li class="square" id="s401"></li>
                 <li class="square" id="s402"></li>
                 <li class="square" id="s403"></li>
@@ -57,9 +60,9 @@
                 <li class="square" id="s406"></li>
                 <li class="square" id="s407"></li>
                 <li class="square" id="s408"></li>
-            </div>
+            </ul>
 
-            <div class="row" id="row5">
+            <ul class="row" id="row5">
                 <li class="square" id="s501"></li>
                 <li class="square" id="s502"></li>
                 <li class="square" id="s503"></li>
@@ -68,9 +71,9 @@
                 <li class="square" id="s506"></li>
                 <li class="square" id="s507"></li>
                 <li class="square" id="s508"></li>
-            </div>
+            </ul>
 
-            <div class="row" id="row6">
+            <ul class="row" id="row6">
                 <li class="square" id="s601"></li>
                 <li class="square" id="s602"></li>
                 <li class="square" id="s603"></li>
@@ -79,9 +82,9 @@
                 <li class="square" id="s606"></li>
                 <li class="square" id="s607"></li>
                 <li class="square" id="s608"></li>
-            </div>
+            </ul>
 
-            <div class="row" id="row7">
+            <ul class="row" id="row7">
                 <li class="square" id="s701">w-pawn</li>
                 <li class="square" id="s702">w-pawn</li>
                 <li class="square" id="s703">w-pawn</li>
@@ -90,9 +93,9 @@
                 <li class="square" id="s706">w-pawn</li>
                 <li class="square" id="s707">w-pawn</li>
                 <li class="square" id="s708">w-pawn</li>
-            </div>
+            </ul>
 
-            <div class="row" id="row8">
+            <ul class="row" id="row8">
                 <li class="square" id="s801">w-rook</li>
                 <li class="square" id="s802">w-knight</li>
                 <li class="square" id="s803">w-bishop</li>
@@ -101,14 +104,17 @@
                 <li class="square" id="s806">w-bishop</li>
                 <li class="square" id="s807">w-knight</li>
                 <li class="square" id="s808">w-rook</li>
-            </div>
-        </ul>
+            </ul>
+        </main>
 
         <h2 id="toggle">White's Turn</h2>
         <h2 id="reset-button">Reset</h2>
+
     </div>
 
-    <script src="assets/js/chess.js"></script>
+    <footer>
+        <script src="assets/js/chess.js"></script>
+    </footer>
 </body>
 
 </html>
