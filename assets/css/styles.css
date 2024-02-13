@@ -29,7 +29,6 @@ body {
 ul {
     display: grid;
     grid-template-columns: 1fr;
-    ;
 }
 
 li {
@@ -69,7 +68,6 @@ h1 {
 }
 
 #reset-button {
-    margin: 40px 0px;
     font-size: 1.2rem;
     text-align: center;
     color: black;
